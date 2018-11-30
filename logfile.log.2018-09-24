@@ -1,0 +1,170 @@
+2018-Sep-24 19:06:12,341 [main] driverScript.Main_Class 
+  INFO  Opening Excel File
+2018-Sep-24 19:06:12,794 [main] driverScript.Main_Class 
+  INFO  Getting Excel Data into a String array
+2018-Sep-24 19:06:12,794 [main] driverScript.Main_Class 
+  INFO  Selecting sheet(domain) that has run mode as YES
+2018-Sep-24 19:06:12,805 [main] driverScript.Main_Class 
+  INFO  Getting Excel Data into a String array
+2018-Sep-24 19:06:12,806 [main] driverScript.Main_Class 
+  INFO  Selecting data that has run mode as YES
+2018-Sep-24 19:06:12,806 [main] driverScript.Main_Class 
+  INFO  Selecting data that has values other than NULL or NA
+2018-Sep-24 19:06:12,806 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0001
+2018-Sep-24 19:06:12,806 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test to create product family
+2018-Sep-24 19:06:12,806 [main] driverScript.Main_Class 
+  INFO  Starting the POST Function
+2018-Sep-24 19:06:13,056 [main] driverScript.Generic_Functions 
+  INFO  Got the JSON Object from JSONObject func_getJson_Object Function 
+2018-Sep-24 19:06:15,715 [main] driverScript.Main_Class 
+  INFO  Ending the POST Function
+2018-Sep-24 19:06:15,715 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0002
+2018-Sep-24 19:06:15,715 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test to get product family
+2018-Sep-24 19:06:15,715 [main] driverScript.Main_Class 
+  INFO  Starting the GET Function
+2018-Sep-24 19:06:15,715 [main] driverScript.Generic_Functions 
+  INFO  Url :https://18.206.47.77/bimpaas/productFamily/productfamily-id/98187-90014-1537796175333
+2018-Sep-24 19:06:17,106 [main] driverScript.Generic_Functions 
+  INFO  Body :{"result":"success","httpStatus":"OK","response":{"bimRecordId":"98187-90014-1537796175333","itemType":"string","itemName":"Core offering SD WAN","bimStatus":"Active","bimState":"string","itemId":"PF1119","relatedToItem":"string","createdBy":"Admin 2018/09/24 13:36:15 2018/09/24 13:36:15","modifiedBy":"string 2018/09/24 13:36:15 2018/09/24 13:36:15","bimVersion":"string","createdOn":"2018/09/24 13:36:15","modifiedOn":"string","pEDomainItemSpecification":[{"itemId":"string","itemSpecId":"string","itemSpecName":"string","pEDomainItemSpecAttribute":[{"attributeId":"string","specificationId":"string","attributeName":"string","attributeValue":"string","attributeType":"string","uom":"string"}],"pEDomainItemSpecCharacteristic":[{"characteristicId":"string","specificationId":"string","characteristicName":"string","characteristicValue":"string","characteristicType":"string"}]}],"products":[{"bimRecordId":"string","itemHref":"/product/api/string","referenceBimRecordId":"98187-90014-1537796175333"}],"services":[{"bimRecordId":"string","itemHref":"/service/api/string","referenceBimRecordId":"98187-90014-1537796175333"}],"resources":[{"bimRecordId":"string","itemHref":"/resource/api/string","referenceBimRecordId":"98187-90014-1537796175333"}]},"messages":[{"key":"generic.success.message","message":"Got Records Successfully.","type":0,"code":"200 - OK"}]}
+2018-Sep-24 19:06:17,117 [main] driverScript.Generic_Functions 
+  INFO  Url :https://18.206.47.77/bimpaas/productFamily/productfamily-id/80627-131034-1537796175333
+2018-Sep-24 19:06:18,518 [main] driverScript.Generic_Functions 
+  INFO  Body :{"result":"success","httpStatus":"OK","response":{"bimRecordId":"80627-131034-1537796175333","itemType":"abcd","itemName":"string","bimStatus":"Active","bimState":"string","itemId":"PF2222","relatedToItem":"string","createdBy":"Admin 2018/09/24 13:36:15 2018/09/24 13:36:15","modifiedBy":"string 2018/09/24 13:36:15 2018/09/24 13:36:15","bimVersion":"string","createdOn":"2018/09/24 13:36:15","modifiedOn":"string","pEDomainItemSpecification":[{"itemId":"string","itemSpecId":"string","itemSpecName":"string","pEDomainItemSpecAttribute":[{"attributeId":"string","specificationId":"string","attributeName":"string","attributeValue":"string","attributeType":"string","uom":"string"}],"pEDomainItemSpecCharacteristic":[{"characteristicId":"string","specificationId":"string","characteristicName":"string","characteristicValue":"string","characteristicType":"string"}]}],"products":[{"bimRecordId":"string","itemHref":"/product/api/string","referenceBimRecordId":"80627-131034-1537796175333"}],"services":[{"bimRecordId":"string","itemHref":"/service/api/string","referenceBimRecordId":"80627-131034-1537796175333"}],"resources":[{"bimRecordId":"string","itemHref":"/resource/api/string","referenceBimRecordId":"80627-131034-1537796175333"}]},"messages":[{"key":"generic.success.message","message":"Got Records Successfully.","type":0,"code":"200 - OK"}]}
+2018-Sep-24 19:06:18,548 [main] driverScript.Main_Class 
+  INFO  Ending the GET Function
+2018-Sep-24 19:06:18,548 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0003
+2018-Sep-24 19:06:18,548 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test case to update product family
+2018-Sep-24 19:06:18,548 [main] driverScript.Main_Class 
+  INFO  Starting the Update Function
+2018-Sep-24 19:06:18,548 [main] driverScript.Generic_Functions 
+  INFO  Got the JSON File from func_updateJson_Object Function
+2018-Sep-24 19:06:20,893 [main] driverScript.Main_Class 
+  INFO  Ending the Update Function
+2018-Sep-24 19:06:20,896 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0004
+2018-Sep-24 19:06:20,896 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test to get product family
+2018-Sep-24 19:06:20,896 [main] driverScript.Main_Class 
+  INFO  Starting the GET Function
+2018-Sep-24 19:06:20,896 [main] driverScript.Generic_Functions 
+  INFO  Url :https://18.206.47.77/bimpaas/productFamily/productfamily-id/98187-90014-1537796175333
+2018-Sep-24 19:06:22,272 [main] driverScript.Generic_Functions 
+  INFO  Body :{"result":"success","httpStatus":"OK","response":{"bimRecordId":"98187-90014-1537796175333","itemType":"string","itemName":"ItemName1113","bimStatus":"Active","bimState":"string","itemId":"PF1119","relatedToItem":"string","createdBy":"string 2018/09/24 13:36:19 2018/09/24 13:36:19","modifiedBy":"Admin 2018/09/24 13:36:19 2018/09/24 13:36:19","bimVersion":"string","createdOn":"string","modifiedOn":"2018/09/24 13:36:19","pEDomainItemSpecification":[{"itemId":"string","itemSpecId":"string","itemSpecName":"string","pEDomainItemSpecAttribute":[{"attributeId":"string","specificationId":"string","attributeName":"string","attributeValue":"string","attributeType":"string","uom":"string"}],"pEDomainItemSpecCharacteristic":[{"characteristicId":"string","specificationId":"string","characteristicName":"string","characteristicValue":"string","characteristicType":"string"}]}],"products":[{"bimRecordId":"string","itemHref":"/product/api/string","referenceBimRecordId":"98187-90014-1537796175333"}],"services":[{"bimRecordId":"string","itemHref":"/service/api/string","referenceBimRecordId":"98187-90014-1537796175333"}],"resources":[{"bimRecordId":"string","itemHref":"/resource/api/string","referenceBimRecordId":"98187-90014-1537796175333"}]},"messages":[{"key":"generic.success.message","message":"Got Records Successfully.","type":0,"code":"200 - OK"}]}
+2018-Sep-24 19:06:22,289 [main] driverScript.Generic_Functions 
+  INFO  Url :https://18.206.47.77/bimpaas/productFamily/productfamily-id/80627-131034-1537796175333
+2018-Sep-24 19:06:23,617 [main] driverScript.Generic_Functions 
+  INFO  Body :{"result":"success","httpStatus":"OK","response":{"bimRecordId":"80627-131034-1537796175333","itemType":"abcd","itemName":"string","bimStatus":"Active","bimState":"string","itemId":"PF2222","relatedToItem":"string","createdBy":"string 2018/09/24 13:36:19 2018/09/24 13:36:19","modifiedBy":"Admin 2018/09/24 13:36:19 2018/09/24 13:36:19","bimVersion":"string","createdOn":"string","modifiedOn":"2018/09/24 13:36:19","pEDomainItemSpecification":[{"itemId":"string","itemSpecId":"string","itemSpecName":"string","pEDomainItemSpecAttribute":[{"attributeId":"string","specificationId":"string","attributeName":"string","attributeValue":"string","attributeType":"string","uom":"string"}],"pEDomainItemSpecCharacteristic":[{"characteristicId":"string","specificationId":"string","characteristicName":"string","characteristicValue":"string","characteristicType":"string"}]}],"products":[{"bimRecordId":"string","itemHref":"/product/api/string","referenceBimRecordId":"80627-131034-1537796175333"}],"services":[{"bimRecordId":"string","itemHref":"/service/api/string","referenceBimRecordId":"80627-131034-1537796175333"}],"resources":[{"bimRecordId":"string","itemHref":"/resource/api/string","referenceBimRecordId":"80627-131034-1537796175333"}]},"messages":[{"key":"generic.success.message","message":"Got Records Successfully.","type":0,"code":"200 - OK"}]}
+2018-Sep-24 19:06:23,620 [main] driverScript.Main_Class 
+  INFO  Ending the GET Function
+2018-Sep-24 19:06:23,620 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0005
+2018-Sep-24 19:06:23,620 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test case to delete product family
+2018-Sep-24 19:06:23,620 [main] driverScript.Main_Class 
+  INFO  Starting the DELETE Function
+2018-Sep-24 19:06:23,635 [main] driverScript.Generic_Functions 
+  INFO  Got the JSON File from func_deleteJson_Object Function
+2018-Sep-24 19:06:24,937 [main] driverScript.Main_Class 
+  INFO  Ending the DELETE Function
+2018-Sep-24 19:06:24,937 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0006
+2018-Sep-24 19:06:24,937 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test to get product family
+2018-Sep-24 19:06:24,937 [main] driverScript.Main_Class 
+  INFO  Starting the GET Function
+2018-Sep-24 19:06:24,937 [main] driverScript.Generic_Functions 
+  INFO  Url :https://18.206.47.77/bimpaas/productFamily/productfamily-id/98187-90014-1537796175333
+2018-Sep-24 19:06:26,255 [main] driverScript.Generic_Functions 
+  INFO  Body :{"result":"error","httpStatus":"OK","response":null,"messages":[{"key":"service.message.prodfamily.not.found.id","message":"Product Family Data Not Found with Id 98187-90014-1537796175333.","type":0,"code":"204 - No Content"}]}
+2018-Sep-24 19:06:26,263 [main] driverScript.Generic_Functions 
+  INFO  Url :https://18.206.47.77/bimpaas/productFamily/productfamily-id/80627-131034-1537796175333
+2018-Sep-24 19:06:27,622 [main] driverScript.Generic_Functions 
+  INFO  Body :{"result":"error","httpStatus":"OK","response":null,"messages":[{"key":"service.message.prodfamily.not.found.id","message":"Product Family Data Not Found with Id 80627-131034-1537796175333.","type":0,"code":"204 - No Content"}]}
+2018-Sep-24 19:06:27,634 [main] driverScript.Main_Class 
+  INFO  Ending the GET Function
+2018-Sep-24 19:06:27,634 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0007
+2018-Sep-24 19:06:27,634 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test data to create services
+2018-Sep-24 19:06:27,634 [main] driverScript.Main_Class 
+  INFO  Starting the POST Function
+2018-Sep-24 19:06:27,634 [main] driverScript.Generic_Functions 
+  INFO  Got the JSON Object from JSONObject func_getJson_Object Function 
+2018-Sep-24 19:06:29,013 [main] driverScript.Main_Class 
+  INFO  Ending the POST Function
+2018-Sep-24 19:06:29,013 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0008
+2018-Sep-24 19:06:29,013 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test case to get services
+2018-Sep-24 19:06:29,013 [main] driverScript.Main_Class 
+  INFO  Starting the GET Function
+2018-Sep-24 19:06:29,013 [main] driverScript.Generic_Functions 
+  INFO  Url :https://18.206.47.77/bimpaas/services/id/130985-98293-1537796188913
+2018-Sep-24 19:06:30,388 [main] driverScript.Generic_Functions 
+  INFO  Body :{"result":"success","httpStatus":"OK","response":{"bimRecordId":"130985-98293-1537796188913","itemType":"service1","itemName":"ServiceName","bimStatus":"Active","bimState":"string","itemId":"A1008","relatedToItem":"string","createdBy":"Admin 2018/09/24 13:36:28 2018/09/24 13:36:28","modifiedBy":"string 2018/09/24 13:36:28 2018/09/24 13:36:28","bimVersion":"string","createdOn":"2018/09/24 13:36:28","modifiedOn":"string","pEDomainItemSpecification":[{"itemId":"string","itemSpecId":"string","itemSpecName":"string","pEDomainItemSpecAttribute":[{"attributeId":"string","specificationId":"string","attributeName":"string","attributeValue":"string","attributeType":"string","uom":"string"}],"pEDomainItemSpecCharacteristic":[{"characteristicId":"string","specificationId":"string","characteristicName":"string","characteristicValue":"string","characteristicType":"string"}]}],"resources":[{"bimRecordId":"string","itemHref":"/resource/api/string","referenceBimRecordId":"130985-98293-1537796188913"}]},"messages":[{"key":"generic.success.message","message":"Got Records Successfully.","type":0,"code":"200 - OK"}]}
+2018-Sep-24 19:06:30,417 [main] driverScript.Main_Class 
+  INFO  Ending the GET Function
+2018-Sep-24 19:06:30,417 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0009
+2018-Sep-24 19:06:30,417 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test case to update services
+2018-Sep-24 19:06:30,417 [main] driverScript.Main_Class 
+  INFO  Starting the Update Function
+2018-Sep-24 19:06:30,417 [main] driverScript.Generic_Functions 
+  INFO  Got the JSON File from func_updateJson_Object Function
+2018-Sep-24 19:06:32,781 [main] driverScript.Main_Class 
+  INFO  Ending the Update Function
+2018-Sep-24 19:06:32,790 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0010
+2018-Sep-24 19:06:32,790 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test case to get services
+2018-Sep-24 19:06:32,790 [main] driverScript.Main_Class 
+  INFO  Starting the GET Function
+2018-Sep-24 19:06:32,790 [main] driverScript.Generic_Functions 
+  INFO  Url :https://18.206.47.77/bimpaas/services/id/130985-98293-1537796188913
+2018-Sep-24 19:06:34,182 [main] driverScript.Generic_Functions 
+  INFO  Body :{"result":"success","httpStatus":"OK","response":{"bimRecordId":"130985-98293-1537796188913","itemType":"service2","itemName":"Vinita","bimStatus":"Active","bimState":"string","itemId":"A1008","relatedToItem":"string","createdBy":"string 2018/09/24 13:36:31 2018/09/24 13:36:31","modifiedBy":"Admin 2018/09/24 13:36:31 2018/09/24 13:36:31","bimVersion":"string","createdOn":"string","modifiedOn":"2018/09/24 13:36:31","pEDomainItemSpecification":[{"itemId":"string","itemSpecId":"string","itemSpecName":"string","pEDomainItemSpecAttribute":[{"attributeId":"string","specificationId":"string","attributeName":"string","attributeValue":"string","attributeType":"string","uom":"string"}],"pEDomainItemSpecCharacteristic":[{"characteristicId":"string","specificationId":"string","characteristicName":"string","characteristicValue":"string","characteristicType":"string"}]}],"resources":[{"bimRecordId":"string","itemHref":"/resource/api/string","referenceBimRecordId":"130985-98293-1537796188913"}]},"messages":[{"key":"generic.success.message","message":"Got Records Successfully.","type":0,"code":"200 - OK"}]}
+2018-Sep-24 19:06:34,217 [main] driverScript.Main_Class 
+  INFO  Ending the GET Function
+2018-Sep-24 19:06:34,217 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0011
+2018-Sep-24 19:06:34,217 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test case to delete services
+2018-Sep-24 19:06:34,217 [main] driverScript.Main_Class 
+  INFO  Starting the DELETE Function
+2018-Sep-24 19:06:34,217 [main] driverScript.Generic_Functions 
+  INFO  Got the JSON File from func_deleteJson_Object Function
+2018-Sep-24 19:06:35,534 [main] driverScript.Main_Class 
+  INFO  Ending the DELETE Function
+2018-Sep-24 19:06:35,534 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0012
+2018-Sep-24 19:06:35,534 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test case to get services
+2018-Sep-24 19:06:35,534 [main] driverScript.Main_Class 
+  INFO  Starting the GET Function
+2018-Sep-24 19:06:35,534 [main] driverScript.Generic_Functions 
+  INFO  Url :https://18.206.47.77/bimpaas/services/id/130985-98293-1537796188913
+2018-Sep-24 19:06:36,878 [main] driverScript.Generic_Functions 
+  INFO  Body :{"result":"error","httpStatus":"OK","response":null,"messages":[{"key":"service.message.service.not.found.id","message":"Service Data Not Found with Id 130985-98293-1537796188913.","type":0,"code":"204 - No Content"}]}
+2018-Sep-24 19:06:36,893 [main] driverScript.Main_Class 
+  INFO  Ending the GET Function
+2018-Sep-24 19:06:36,893 [main] driverScript.Main_Class 
+  INFO  Test Case Id:ACT0009
+2018-Sep-24 19:06:36,893 [main] driverScript.Main_Class 
+  INFO  Test Case Description:Test case to update services
+2018-Sep-24 19:06:36,893 [main] driverScript.Main_Class 
+  INFO  Starting the Update Function
+2018-Sep-24 19:06:36,893 [main] driverScript.Generic_Functions 
+  INFO  Got the JSON File from func_updateJson_Object Function
+2018-Sep-24 19:06:39,235 [main] driverScript.Main_Class 
+  INFO  Ending the Update Function
+2018-Sep-24 19:06:39,241 [main] driverScript.Main_Class 
+  INFO  Closing Excel File
+2018-Sep-24 19:06:39,241 [main] driverScript.Main_Class 
+  INFO  -------------------------------------------------------------------------------------------------------------------------------------------------

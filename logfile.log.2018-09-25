@@ -1,0 +1,39 @@
+2018-09-25 14:07:55,396 INFO  [Main_Class] Opening Excel File 
+2018-09-25 14:07:55,912 INFO  [Main_Class] Getting Excel Data into a String array 
+2018-09-25 14:07:55,912 INFO  [Main_Class] Selecting sheet(domain) that has run mode as YES 
+2018-09-25 14:07:55,919 INFO  [Main_Class] Getting Excel Data into a String array 
+2018-09-25 14:07:55,920 INFO  [Main_Class] Selecting data that has run mode as YES 
+2018-09-25 14:07:55,920 INFO  [Main_Class] Selecting data that has values other than NULL or NA 
+2018-09-25 14:07:55,920 INFO  [Main_Class] Test Case Id:ACT0007 
+2018-09-25 14:07:55,920 INFO  [Main_Class] Test Case Description:Test data to create services 
+2018-09-25 14:07:55,920 INFO  [Main_Class] Starting the POST Function 
+2018-09-25 14:07:55,983 INFO  [Main_Class] Ending the POST Function 
+2018-09-25 14:07:55,983 INFO  [Main_Class] Test Case Id:ACT0008 
+2018-09-25 14:07:55,983 INFO  [Main_Class] Test Case Description:Test case to get services 
+2018-09-25 14:07:55,983 INFO  [Main_Class] Starting the GET Function 
+2018-09-25 14:09:11,086 INFO  [Main_Class] Opening Excel File 
+2018-09-25 14:09:11,523 INFO  [Main_Class] Getting Excel Data into a String array 
+2018-09-25 14:09:11,523 INFO  [Main_Class] Selecting sheet(domain) that has run mode as YES 
+2018-09-25 14:09:11,538 INFO  [Main_Class] Getting Excel Data into a String array 
+2018-09-25 14:09:11,540 INFO  [Main_Class] Selecting data that has run mode as YES 
+2018-09-25 14:09:11,540 INFO  [Main_Class] Selecting data that has values other than NULL or NA 
+2018-09-25 14:09:11,540 INFO  [Main_Class] Test Case Id:ACT0007 
+2018-09-25 14:09:11,540 INFO  [Main_Class] Test Case Description:Test data to create services 
+2018-09-25 14:09:11,540 INFO  [Main_Class] Starting the POST Function 
+2018-09-25 14:09:11,556 INFO  [Main_Class] Ending the POST Function 
+2018-09-25 14:09:11,556 INFO  [Main_Class] Test Case Id:ACT0008 
+2018-09-25 14:09:11,556 INFO  [Main_Class] Test Case Description:Test case to get services 
+2018-09-25 14:09:11,556 INFO  [Main_Class] Starting the GET Function 
+2018-09-25 14:12:37,629 INFO  [Main_Class] Error:null 
+2018-09-25 14:26:44,644 INFO  [Main_Class] Error:null 
+2018-09-25 14:29:52,193 INFO  [Main_Class] Error:null 
+2018-09-25 14:30:30,223 INFO  [Main_Class] Error:null 
+2018-09-25 14:30:57,061 INFO  [Main_Class] Error:null 
+2018-09-25 14:33:57,937 INFO  [Main_Class] Error:null 
+2018-09-25 14:35:42,239 INFO  [Main_Class] Error:null 
+2018-09-25 14:43:13,626 INFO  [Main_Class] Selecting data that has run mode as YES 
+2018-09-25 14:43:13,626 INFO  [Main_Class] Selecting data that has values other than NULL or NA 
+2018-09-25 14:47:34,765 INFO  [Main_Class] Selecting data that has run mode as YES 
+2018-09-25 14:47:34,765 INFO  [Main_Class] Selecting data that has values other than NULL or NA 
+2018-09-25 14:50:07,085 INFO  [Main_Class] Selecting data that has run mode as YES 
+2018-09-25 14:50:07,085 INFO  [Main_Class] Selecting data that has values other than NULL or NA 
